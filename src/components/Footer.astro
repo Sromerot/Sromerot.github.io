@@ -8,6 +8,7 @@ const year = new Date().getFullYear();
   <div
     class="text-ink-soft mx-auto flex max-w-3xl flex-col gap-4 px-6 py-8 font-mono text-xs sm:flex-row sm:items-center sm:justify-between"
   >
+    {/* Conservamos el crédito de Astro y tu nombre */}
     <p>© {year} {SITE.name}. Built with Astro.</p>
 
     <nav class="flex items-center gap-4" aria-label="Social">
@@ -18,7 +19,8 @@ const year = new Date().getFullYear();
           </a>
         ))
       }
-      <a href="#top" class="hover:text-signal transition-colors"> Top ↑ </a>
+      {/* Traducimos únicamente el botón de desplazamiento */}
+      <a href="#top" class="hover:text-signal transition-colors"> Volver arriba ↑ </a>
     </nav>
   </div>
 </footer>
