@@ -3,20 +3,18 @@
 export const SITE = {
   name: 'Samuel Romero',
   role: 'Software Development Student',
-  email: 'tu-email@ejemplo.com',
-  tagline: 'I design and build interfaces that hold up under real use.',
+  email: 'sromerot@unbosque.edu.co',
+  tagline: 'Diseño y construyo sistemas robustos, estructurados y eficientes.',
   description:
     'Portfolio — with an emphasis on speed, clarity, and details.',
   status: 'Open to new work',
   social: [
     { label: 'GitHub', href: 'https://github.com/Sromerot' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/tu-usuario' },
-    { label: 'X', href: 'https://x.com/tu-usuario' },
   ],
-  locale: 'en',
+  locale: 'es',
 } as const;
 
 export const NAV_LINKS = [
   { label: 'Work', href: `${import.meta.env.BASE_URL}work` },
-  { label: 'About', href: `${import.meta.env.BASE_URL}about` },
+  { label: 'About Me', href: `${import.meta.env.BASE_URL}about` },
 ] as const;
