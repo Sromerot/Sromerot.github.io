@@ -7,7 +7,7 @@ export const SITE = {
   tagline: 'Diseño y construyo sistemas robustos, estructurados y eficientes.',
   description:
     'Portafolio de Samuel Romero — estudiante de desarrollo de software enfocado en Java, arquitectura MVC y lógica de programación.',
-  status: 'Open to new work',
+  status: 'Abierto a nuevas oportunidades',
   social: [
     { label: 'GitHub', href: 'https://github.com/Sromerot' },
   ],
