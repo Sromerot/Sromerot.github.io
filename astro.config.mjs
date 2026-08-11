@@ -9,7 +9,7 @@ const SITE_URL = 'https://Sromerot.github.io/samuel';
 
 export default defineConfig({
   site: "https://Sromerot.github.io",
-  base: '/samuel',
+  base: '/Samuel',
   integrations: [sitemap()],
 
   // Prefetches internal links on hover/viewport entry for near-instant navigation.
