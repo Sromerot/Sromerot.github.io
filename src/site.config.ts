@@ -6,7 +6,7 @@ export const SITE = {
   email: 'sromerot@unbosque.edu.co',
   tagline: 'Diseño y construyo sistemas robustos, estructurados y eficientes.',
   description:
-    'Portfolio — with an emphasis on speed, clarity, and details.',
+    'Portafolio de Samuel Romero — estudiante de desarrollo de software enfocado en Java, arquitectura MVC y lógica de programación.',
   status: 'Open to new work',
   social: [
     { label: 'GitHub', href: 'https://github.com/Sromerot' },
