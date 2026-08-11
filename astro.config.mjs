@@ -8,8 +8,8 @@ import tailwindcss from '@tailwindcss/vite';
 const SITE_URL = 'https://astro-starter-portfolio.vercel.app';
 
 export default defineConfig({
-  site: "https://Samuel.github.io",
-
+  site: "https://Sromerot.github.io",
+  base: '/samuel',
   integrations: [sitemap()],
 
   // Prefetches internal links on hover/viewport entry for near-instant navigation.
