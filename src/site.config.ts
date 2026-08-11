@@ -1,22 +1,22 @@
 // Edit this file to re-label the entire site. Header, Footer, the homepage
 // and SEO defaults all read from here instead of hardcoding copy.
 export const SITE = {
-  name: 'John Doe',
-  role: 'Product design & frontend engineering',
-  email: 'johndoe@example.com',
+  name: 'Samuel Romero',
+  role: 'Software Development Student',
+  email: 'tu-email@ejemplo.com',
   tagline: 'I design and build interfaces that hold up under real use.',
   description:
-    'Portfolio of John Doe — product design and frontend engineering, with an emphasis on speed, clarity, and the details most people skip.',
-  status: 'Currently building at Studio Co · open to new work, Q3 2026',
+    'Portfolio — with an emphasis on speed, clarity, and details.',
+  status: 'Open to new work',
   social: [
-    { label: 'GitHub', href: 'https://github.com/your-username' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/your-username' },
-    { label: 'X', href: 'https://x.com/your-username' },
+    { label: 'GitHub', href: 'https://github.com/Sromerot' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/tu-usuario' },
+    { label: 'X', href: 'https://x.com/tu-usuario' },
   ],
   locale: 'en',
 } as const;
 
 export const NAV_LINKS = [
-  { label: 'Work', href: '/work' },
-  { label: 'About', href: '/about' },
+  { label: 'Work', href: `${import.meta.env.BASE_URL}work` },
+  { label: 'About', href: `${import.meta.env.BASE_URL}about` },
 ] as const;
