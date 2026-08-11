@@ -3,12 +3,13 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import Button from '@/components/Button.astro';
 import { SITE } from '@/site.config';
 
-const tools = ['TypeScript', 'Astro', 'React', 'Figma', 'Tailwind CSS', 'Node.js'];
+// Arreglo actualizado con tu stack tecnológico real
+const tools = ['Java', 'Astro', 'Spring', 'MVC', 'DAO / DTO', 'Git', 'Estructuras de Datos'];
 ---
 
-<BaseLayout title="About" description={`A bit about ${SITE.name} and how they work.`}>
+<BaseLayout title="Sobre mí" description={`Un poco sobre ${SITE.name} y su enfoque de trabajo.`}>
   <section class="mx-auto max-w-3xl px-6 pt-16 pb-24 sm:pt-24">
-    <p class="text-ink-soft mb-6 font-mono text-xs tracking-[0.2em] uppercase">About</p>
+    <p class="text-ink-soft mb-6 font-mono text-xs tracking-[0.2em] uppercase">Sobre mí</p>
 
     <h1 class="font-display text-ink max-w-xl text-3xl font-medium sm:text-4xl">
       {SITE.role}.
@@ -16,23 +17,21 @@ const tools = ['TypeScript', 'Astro', 'React', 'Figma', 'Tailwind CSS', 'Node.js
 
     <div class="prose prose-sm sm:prose-base mt-8 max-w-xl">
       <p>
-        I start most projects by trying to find the smallest version of the problem — the one
-        screen, one flow, or one fix that actually matters — and build that first, properly, before
-        expanding outward.
+        ¡Hola! Soy Samuel, un estudiante universitario de desarrollo de software apasionado por la creación de sistemas robustos, lógicos y eficientes. Mi enfoque principal está en el backend, la arquitectura de software y la resolución de problemas algorítmicos.
       </p>
       <p>
-        That usually means fewer features than a kickoff deck promises, and more attention to the
-        parts people interact with constantly: load times, empty states, error messages, the things
-        that quietly decide whether software feels good to use.
+        A lo largo de mi formación, he construido una base sólida en el ecosistema Java. Disfruto diseñar aplicaciones estructuradas bajo el patrón MVC, garantizando un código limpio mediante la separación de responsabilidades, implementando rigurosamente las nomenclaturas y convenciones de paquetes de la universidad (como <code>co.edu.unbosque.controller</code>) y manejando capas DAO y DTO. Me siento muy cómodo gestionando excepciones, procesando archivos de texto y optimizando datos con herramientas como HashMaps y Streams.
       </p>
       <p>
-        Outside of client and product work, I maintain a couple of small open-source tools and write
-        occasional notes on what I learn building them.
+        Mi interés por entender cómo funcionan los sistemas también se refleja fuera de la pantalla. Disfruto del ensamblaje práctico, la construcción de modelos a escala y los conceptos eléctricos. Esta mentalidad analítica y manual me ha enseñado que un buen software requiere la misma precisión que la conexión de un circuito físico.
+      </p>
+      <p>
+        Cuando me alejo del teclado, suelo disfrutar de rutas en bicicleta al aire libre, asistir a festivales de música en vivo y explorar mundos en plataformas de gaming.
       </p>
     </div>
 
     <div class="mt-10">
-      <p class="text-ink-soft mb-3 font-mono text-xs tracking-[0.2em] uppercase">Tools</p>
+      <p class="text-ink-soft mb-3 font-mono text-xs tracking-[0.2em] uppercase">Tecnologías y Conceptos</p>
       <ul class="flex flex-wrap gap-2">
         {
           tools.map((tool) => (
@@ -44,6 +43,6 @@ const tools = ['TypeScript', 'Astro', 'React', 'Figma', 'Tailwind CSS', 'Node.js
       </ul>
     </div>
 
-    <Button href={`mailto:${SITE.email}`} class="mt-10">Get in touch</Button>
+    <Button href={`mailto:${SITE.email}`} class="mt-10">Contáctame</Button>
   </section>
 </BaseLayout>
