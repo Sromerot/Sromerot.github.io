@@ -1,6 +1,8 @@
 ---
-title: "Proyecto 3: Cadena de Hoteles"
-description: "Base de datos relacional normalizada en 3FN para la gestión operativa de una cadena hotelera multisede."
+title: "Cadena de Hoteles Multisede"
+summary: "Modelo EER, esquema relacional normalizado en 3FN y DDL de 16 tablas para gestionar reservas, habitaciones, consumos de servicios, aseo y facturación hotelera."
+role: "Arquitecto y Modelador de Bases de Datos"
+date: 2026-11-25
 ---
 
 <iframe
