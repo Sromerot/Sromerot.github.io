@@ -1,6 +1,7 @@
 ---
-title: "Proyecto 5: Droguería con Varias Sucursales"
-description: "Base de datos relacional normalizada en 3FN para la gestión de inventario por lotes, vencimientos, fórmulas médicas y ventas de una droguería multisucursal."
+title: "Droguería con Varias Sucursales"
+summary: "Diseño de base de datos en 3FN de 22 tablas con control de lotes y vencimientos, inventario por sucursal, apartados, órdenes de compra y validación de fórmulas médicas."
+role: "Arquitecto y Modelador de Bases de Datos"
 ---
 
 <iframe
