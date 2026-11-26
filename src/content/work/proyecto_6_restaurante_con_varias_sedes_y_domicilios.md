@@ -1,6 +1,7 @@
 ---
-title: "Proyecto 6: Restaurante con Varias Sedes y Domicilios"
-description: "Base de datos relacional normalizada en 3FN para la operación de un restaurante multisede con atención en mesa, para llevar y domicilios."
+title: "Restaurante con Varias Sedes y Domicilios"
+summary: "Sistema relacional normalizado en 3FN de 20 tablas para gestionar mesas, recetas, inventario de ingredientes, suministros ternarios, pedidos multicanal y cocina."
+role: "Arquitecto y Modelador de Bases de Datos"
 ---
 
 <iframe
