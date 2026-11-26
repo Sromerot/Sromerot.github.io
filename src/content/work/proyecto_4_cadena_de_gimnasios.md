@@ -1,6 +1,8 @@
 ---
-title: "Proyecto 4: Cadena de Gimnasios"
-description: "Base de datos relacional normalizada en 3FN para la administración de sedes, membresías, clases grupales y mantenimiento de equipos de una cadena de gimnasios."
+title: "Cadena de Gimnasios"
+summary: "Arquitectura de base de datos relacional en 3FN con 18 tablas para administrar membresías, planes, pagos, sesiones de clases con cupo, accesos y mantenimiento de equipos."
+role: "Arquitecto y Modelador de Bases de Datos"
+date: 2026-11-24
 ---
 
 <iframe
