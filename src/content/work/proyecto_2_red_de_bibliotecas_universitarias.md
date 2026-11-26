@@ -2,7 +2,6 @@
 title: "Red de Bibliotecas Universitarias"
 summary: "Diseño conceptual (EER Chen), modelo relacional en 3FN y script SQL de 18 tablas para centralizar préstamos, ejemplares, reservas y multas en una red universitaria."
 role: "Arquitecto y Modelador de Bases de Datos"
-date: 2026-11-26
 ---
 
 <iframe>
