@@ -1,13 +1,15 @@
 ---
-title: "Proyecto 2: Red de Bibliotecas Universitarias"
-description: "Base de datos relacional normalizada en 3FN para la gestión de una red de bibliotecas universitarias multisede."
+title: "Red de Bibliotecas Universitarias"
+summary: "Diseño conceptual (EER Chen), modelo relacional en 3FN y script SQL de 18 tablas para centralizar préstamos, ejemplares, reservas y multas en una red universitaria."
+role: "Arquitecto y Modelador de Bases de Datos"
+date: 2026-11-26
 ---
 
-<iframe
+<iframe>
   frameborder="0"
   style="width: 100%; height: 550px; border: 1px solid #30363d; border-radius: 8px;"
   src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000ff&layers=1&nav=1&title=RedBibliotecaBaseDatos.drawio&dark=1#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1-LDRXZVx8dTfKV089FdbAmhSxVBs2dt-%26export%3Ddownload"
-></iframe>
+</iframe>
 
 **LinkDraw:** [Abrir diagrama en draw.io (RedBibliotecaBaseDatos.drawio)](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000ff&layers=1&nav=1&title=RedBibliotecaBaseDatos.drawio&dark=1#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1-LDRXZVx8dTfKV089FdbAmhSxVBs2dt-%26export%3Ddownload)
 
